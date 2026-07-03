@@ -45,21 +45,7 @@ My_RISCV_Project/
 ```
 
 ---
-## ## Getting Started 🚀
 
-To run a simulation of this processor, you'll need a Verilog simulator like ModelSim, QuestaSim, or Xilinx Vivado's simulator.
-
-1.  **Clone the repository:**
-    ```sh
-    git clone <https://github.com/Sathvik-VarmaK/Multi-Cycle-RISC-V-Processor-Core.git>
-    ```
-2.  **Create a project** in your simulator of choice.
-3.  **Add all the Verilog files** from the `src/` directory as design sources.
-4.  **Add `tb_top.v`** from the `sim/` directory as a simulation source and set it as the top-level testbench.
-5.  **Place `program.mem`** in the main simulation directory so it can be found by the `$readmemh` task.
-6.  **Run the simulation!** In a tool like ModelSim, you can use the command `run 800 ns` in the transcript to execute the testbench.
-
----
 ## ## Sample Program
 
 The included test program (`program.mem`) tests the control flow logic by running a simple countdown loop.
